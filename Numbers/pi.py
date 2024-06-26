@@ -40,5 +40,10 @@ def graph(dp: int = 2) -> None:
 
     plt.show()
 
+
+def main() -> None:
+    dp = input("How many decimal places do you want to estimate pi to: ")
+    graph(dp)
+
 if __name__ == "__main__":
-    graph(4)
+    main()
